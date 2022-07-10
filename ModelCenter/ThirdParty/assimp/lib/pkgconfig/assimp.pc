@@ -1,0 +1,9 @@
+libdir=D:/work/code/study/github/other/python/assimp/extern/assimp-5.2.3/../../ThirdParty/assimp/lib
+includedir=D:/work/code/study/github/other/python/assimp/extern/assimp-5.2.3/../../ThirdParty/assimp/include
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 5.2.0
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}
